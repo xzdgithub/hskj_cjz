@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/battery_full_lite.png</file>
+        <file>image/file_lite.png</file>
+        <file>image/circle.png</file>
+        <file>image/circle_lite.png</file>
+        <file>image/file_lite2.png</file>
+        <file>image/file_lite3.png</file>
+        <file>image/police_2.png</file>
+        <file>image/down-arrow.png</file>
+        <file>image/left-arrow.png</file>
+        <file>image/right-arrow.png</file>
+    </qresource>
+</RCC>

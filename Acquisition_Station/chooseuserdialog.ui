@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChooseUserDialog</class>
+ <widget class="QDialog" name="ChooseUserDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QComboBox" name="comboBox_user">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>50</y>
+     <width>221</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox {
+    border: 1px solid gray;   /* 边框 */
+    border-radius: 0px;   /* 圆角 */
+    padding: 1px 18px 1px 3px;   /* 字体填衬 */
+    color: rgb(255, 255, 255);
+    background: rgb(85, 170, 255);
+	font:20px;
+}
+QComboBox::drop-down {
+    subcontrol-origin: padding;   /* 子控件在父元素中的原点矩形。如果未指定此属性，则默认为padding。 */
+    subcontrol-position: top right;   /* 下拉框的位置（右上） */
+    width: 30px;   /* 下拉框的宽度 */
+
+    border-left-style: solid;   /* 下拉框的左边界线为实线 */
+    border-top-right-radius: 3px;   /* 下拉框的右上边界线的圆角半径（应和整个QComboBox右上边界线的圆角半径一致） */
+    border-bottom-right-radius: 3px;   /* 同上 */
+}
+QComboBox::down-arrow { width: 30px;
+ 	background: transparent;
+ 	padding: 0px 0px 0px 0px; 
+	image: url(:/image/down-arrow.png);
+} 
+QComboBox::down-arrow:on { 
+	image: url(:/image/down-arrow.png);
+ }</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Choose User</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="btn_chooseuser">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>200</y>
+     <width>88</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background-color:rgba(91,155,213,100%);
+color: white;   
+border-radius: 5px;  
+border: 2px groove gray; 
+border-style: outset;
+}
+QPushButton:pressed{
+background-color:rgb(85, 170, 255);
+ border-style: inset;
+}</string>
+   </property>
+   <property name="text">
+    <string>Ok</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

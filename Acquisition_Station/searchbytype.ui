@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SearchByType</class>
+ <widget class="QDialog" name="SearchByType">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:#FFFFFF;
+border:1px solid black;</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>30</y>
+     <width>251</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:none;</string>
+   </property>
+   <property name="text">
+    <string>Search by files type
+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_searchall">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>20</y>
+     <width>88</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background-color:rgba(91,155,213,100%);
+color: white;   
+border-radius: 5px;  
+border: 2px groove gray; 
+border-style: outset;
+font:16px;
+}
+QPushButton:pressed{
+background-color:rgb(85, 170, 255);
+ border-style: inset;
+}</string>
+   </property>
+   <property name="text">
+    <string>All</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_Audio">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>80</y>
+     <width>88</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background-color:rgba(91,155,213,100%);
+color: white;   
+border-radius: 5px;  
+border: 2px groove gray; 
+border-style: outset;
+font:16px;
+}
+QPushButton:pressed{
+background-color:rgb(85, 170, 255);
+ border-style: inset;
+}</string>
+   </property>
+   <property name="text">
+    <string>Audio</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_video">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>20</y>
+     <width>88</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background-color:rgba(91,155,213,100%);
+color: white;   
+border-radius: 5px;  
+border: 2px groove gray; 
+border-style: outset;
+font:16px;
+}
+QPushButton:pressed{
+background-color:rgb(85, 170, 255);
+ border-style: inset;
+}</string>
+   </property>
+   <property name="text">
+    <string>Video</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>80</y>
+     <width>88</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background-color:rgba(91,155,213,100%);
+color: white;   
+border-radius: 5px;  
+border: 2px groove gray; 
+border-style: outset;
+font:16px;
+}
+QPushButton:pressed{
+background-color:rgb(85, 170, 255);
+ border-style: inset;
+}</string>
+   </property>
+   <property name="text">
+    <string>Event</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_photo">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>20</y>
+     <width>88</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background-color:rgba(91,155,213,100%);
+color: white;   
+border-radius: 5px;  
+border: 2px groove gray; 
+border-style: outset;
+font:16px;
+}
+QPushButton:pressed{
+background-color:rgb(85, 170, 255);
+ border-style: inset;
+}</string>
+   </property>
+   <property name="text">
+    <string>Photo</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>80</y>
+     <width>88</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background-color:rgba(91,155,213,100%);
+color: white;   
+border-radius: 5px;  
+border: 2px groove gray; 
+border-style: outset;
+font:16px;
+}
+QPushButton:pressed{
+background-color:rgb(85, 170, 255);
+ border-style: inset;
+}</string>
+   </property>
+   <property name="text">
+    <string>Remark</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Log">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>20</y>
+     <width>88</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background-color:rgba(91,155,213,100%);
+color: white;   
+border-radius: 5px;  
+border: 2px groove gray; 
+border-style: outset;
+font:16px;
+}
+QPushButton:pressed{
+background-color:rgb(85, 170, 255);
+ border-style: inset;
+}</string>
+   </property>
+   <property name="text">
+    <string>Log</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_Export">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>80</y>
+     <width>88</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background-color:#70AD47;
+color: white;   
+border-radius: 5px;  
+border: 2px groove gray; 
+border-style: outset;
+font:16px;
+}
+QPushButton:pressed{
+background-color:#329632;
+ border-style: inset;
+}</string>
+   </property>
+   <property name="text">
+    <string>Export</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>960</width>
+     <height>551</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget{
+	background:rgba(255, 255, 255,0);
+ 	border:none;
+}
+QHeaderView
+{
+    background:transparent;  
+	border:none;
+}
+QHeaderView::section 
+{
+    font-size:18px; 
+    font-family:&quot;Microsoft YaHei&quot;; 
+    color:#FFFFFF;  
+    background:#5B9BD5;  
+    border:none; 
+    min-height:50px; 
+    max-height:50px;        
+    margin-left:1.5px;   
+    padding-left:0px;  
+}
+QTableWidget{
+	background:#D2DEEF;  
+	border:none;
+}
+</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>File Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>UploadDate</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>PolNo</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>DevNo</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>export</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="pushButton_goback">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>151</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background-color:rgba(91,155,213,100%);
+color: white;   
+border-radius: 5px;  
+border: 2px groove gray; 
+border-style: outset;
+font:16px;
+}
+QPushButton:pressed{
+background-color:rgb(85, 170, 255);
+ border-style: inset;
+}</string>
+   </property>
+   <property name="text">
+    <string>back</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

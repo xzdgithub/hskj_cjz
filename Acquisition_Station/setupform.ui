@@ -1,0 +1,1416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SetUpForm</class>
+ <widget class="QWidget" name="SetUpForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QComboBox" name="comboBox_mylist">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Connect list</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_change">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>30</y>
+     <width>83</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <item>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>4</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>5</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>6</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>7</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>8</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>9</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>10</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>11</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>12</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>13</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>14</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>15</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>16</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>17</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>18</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>19</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>20</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>21</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>22</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>23</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>24</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>25</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>26</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>27</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>28</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>29</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>30</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>connect list</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>0</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>change to form</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_change">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>60</y>
+     <width>88</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>change</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_goBack">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>520</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background-color:rgba(91,155,213,100%);
+color: white;   
+border-radius: 5px;  
+border: 2px groove gray; 
+border-style: outset;
+}
+QPushButton:pressed{
+background-color:rgb(85, 170, 255);
+ border-style: inset;
+}</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_17">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>610</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>System language:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_language">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>640</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox QAbstractItemView{
+background:#FFFFFF;
+}
+QComboBox {
+    border: 1px solid gray;   /* 边框 */
+    border-radius: 3px;   /* 圆角 */
+    padding: 1px 18px 1px 3px;   /* 字体填衬 */
+    color: rgb(255, 255, 255);
+    background: rgb(85, 170, 255);
+	font:20px;
+}
+QComboBox::drop-down {
+    subcontrol-origin: padding;   /* 子控件在父元素中的原点矩形。如果未指定此属性，则默认为padding。 */
+    subcontrol-position: top right;   /* 下拉框的位置（右上） */
+    width: 30px;   /* 下拉框的宽度 */
+
+    border-left-style: solid;   /* 下拉框的左边界线为实线 */
+    border-top-right-radius: 3px;   /* 下拉框的右上边界线的圆角半径（应和整个QComboBox右上边界线的圆角半径一致） */
+    border-bottom-right-radius: 3px;   /* 同上 */
+}
+QComboBox::down-arrow { width: 30px;
+ 	background: transparent;
+ 	padding: 0px 0px 0px 0px; 
+	image: url(:/image/down-arrow.png);
+} 
+QComboBox::down-arrow:on { 
+	image: url(:/image/down-arrow.png);
+ }</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>English</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Chinese</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Russian</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>90</y>
+     <width>201</width>
+     <height>420</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:#F0F0F0;</string>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>177</width>
+      <height>985</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label_18">
+       <property name="text">
+        <string>UserID</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_UserId">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+background-color: #FFFFFF;
+}
+QLineEdit:disabled{
+background-color: #CCCCCC;
+color: #787878;
+}</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_19">
+       <property name="text">
+        <string>DriverID</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_DriverId">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+background-color: #FFFFFF;
+}
+QLineEdit:disabled{
+background-color: #CCCCCC;
+color: #787878;
+}</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Moviesize</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_Moviesize">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QComboBox QAbstractItemView{
+background:#FFFFFF;
+}
+QComboBox {
+    color: rgb(255, 255, 255);
+    background: rgb(85, 170, 255);
+	font:12px;
+}
+QComboBox:disabled{
+background-color: #CCCCCC;
+color: #787878;
+}
+QComboBox::drop-down {
+    subcontrol-origin: padding;   /* 子控件在父元素中的原点矩形。如果未指定此属性，则默认为padding。 */
+    subcontrol-position: top right;   /* 下拉框的位置（右上） */
+    width: 20px;   /* 下拉框的宽度 */
+
+    border-left-style: solid;   /* 下拉框的左边界线为实线 */
+    border-top-right-radius: 3px;   /* 下拉框的右上边界线的圆角半径（应和整个QComboBox右上边界线的圆角半径一致） */
+    border-bottom-right-radius: 3px;   /* 同上 */
+}
+QComboBox::down-arrow { 
+    width: 20px;
+	image: url(:/image/down-arrow.png);
+} 
+QComboBox::down-arrow:on { 
+	image: url(:/image/down-arrow.png);
+ }</string>
+       </property>
+       <property name="currentIndex">
+        <number>-1</number>
+       </property>
+       <item>
+        <property name="text">
+         <string>MovieSize1440p</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>MovieSize1296p</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>MovieSize1080p60</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>MovieSize1080p30</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>MovieSize720p60</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>MovieSize720p30</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>MovieSizewvga</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>MovieSizevga</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Photosize</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_Photosize">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QComboBox QAbstractItemView{
+background:#FFFFFF;
+}
+QComboBox {
+    color: rgb(255, 255, 255);
+    background: rgb(85, 170, 255);
+	font:12px;
+}
+QComboBox:disabled{
+background-color: #CCCCCC;
+color: #787878;
+}
+QComboBox::drop-down {
+    subcontrol-origin: padding;   /* 子控件在父元素中的原点矩形。如果未指定此属性，则默认为padding。 */
+    subcontrol-position: top right;   /* 下拉框的位置（右上） */
+    width: 20px;   /* 下拉框的宽度 */
+
+    border-left-style: solid;   /* 下拉框的左边界线为实线 */
+    border-top-right-radius: 3px;   /* 下拉框的右上边界线的圆角半径（应和整个QComboBox右上边界线的圆角半径一致） */
+    border-bottom-right-radius: 3px;   /* 同上 */
+}
+QComboBox::down-arrow { 
+    width: 20px;
+	image: url(:/image/down-arrow.png);
+} 
+QComboBox::down-arrow:on { 
+	image: url(:/image/down-arrow.png);
+ }</string>
+       </property>
+       <property name="currentIndex">
+        <number>-1</number>
+       </property>
+       <item>
+        <property name="text">
+         <string>photoSize32M</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>photoSize12M</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>photoSize10M</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>photoSize8M</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>photoSize5M</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>photoSize3M</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>photoSize2M</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>photoSizeVGA</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>MoviecycTime</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_MoviecycTime">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QComboBox QAbstractItemView{
+background:#FFFFFF;
+}
+QComboBox {
+    color: rgb(255, 255, 255);
+    background: rgb(85, 170, 255);
+	font:12px;
+}
+QComboBox:disabled{
+background-color: #CCCCCC;
+color: #787878;
+}
+QComboBox::drop-down {
+    subcontrol-origin: padding;   /* 子控件在父元素中的原点矩形。如果未指定此属性，则默认为padding。 */
+    subcontrol-position: top right;   /* 下拉框的位置（右上） */
+    width: 20px;   /* 下拉框的宽度 */
+
+    border-left-style: solid;   /* 下拉框的左边界线为实线 */
+    border-top-right-radius: 3px;   /* 下拉框的右上边界线的圆角半径（应和整个QComboBox右上边界线的圆角半径一致） */
+    border-bottom-right-radius: 3px;   /* 同上 */
+}
+QComboBox::down-arrow { 
+    width: 20px;
+	image: url(:/image/down-arrow.png);
+} 
+QComboBox::down-arrow:on { 
+	image: url(:/image/down-arrow.png);
+ }</string>
+       </property>
+       <property name="currentIndex">
+        <number>-1</number>
+       </property>
+       <item>
+        <property name="text">
+         <string>Moviecyc5min</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Moviecyc10min</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Moviecyc15min</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Moviecyc20min</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Moviecyc25min</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Moviecyc30min</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>DateWater</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_DateWater">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QComboBox QAbstractItemView{
+background:#FFFFFF;
+}
+QComboBox {
+    color: rgb(255, 255, 255);
+    background: rgb(85, 170, 255);
+	font:12px;
+}
+QComboBox:disabled{
+background-color: #CCCCCC;
+color: #787878;
+}
+QComboBox::drop-down {
+    subcontrol-origin: padding;   /* 子控件在父元素中的原点矩形。如果未指定此属性，则默认为padding。 */
+    subcontrol-position: top right;   /* 下拉框的位置（右上） */
+    width: 20px;   /* 下拉框的宽度 */
+
+    border-left-style: solid;   /* 下拉框的左边界线为实线 */
+    border-top-right-radius: 3px;   /* 下拉框的右上边界线的圆角半径（应和整个QComboBox右上边界线的圆角半径一致） */
+    border-bottom-right-radius: 3px;   /* 同上 */
+}
+QComboBox::down-arrow { 
+    width: 20px;
+	image: url(:/image/down-arrow.png);
+} 
+QComboBox::down-arrow:on { 
+	image: url(:/image/down-arrow.png);
+ }</string>
+       </property>
+       <property name="currentIndex">
+        <number>-1</number>
+       </property>
+       <item>
+        <property name="text">
+         <string>DateWater#on</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>DateWater#off</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>Moviecyc</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_Moviecyc">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QComboBox QAbstractItemView{
+background:#FFFFFF;
+}
+QComboBox {
+    color: rgb(255, 255, 255);
+    background: rgb(85, 170, 255);
+	font:12px;
+}
+QComboBox:disabled{
+background-color: #CCCCCC;
+color: #787878;
+}
+QComboBox::drop-down {
+    subcontrol-origin: padding;   /* 子控件在父元素中的原点矩形。如果未指定此属性，则默认为padding。 */
+    subcontrol-position: top right;   /* 下拉框的位置（右上） */
+    width: 20px;   /* 下拉框的宽度 */
+
+    border-left-style: solid;   /* 下拉框的左边界线为实线 */
+    border-top-right-radius: 3px;   /* 下拉框的右上边界线的圆角半径（应和整个QComboBox右上边界线的圆角半径一致） */
+    border-bottom-right-radius: 3px;   /* 同上 */
+}
+QComboBox::down-arrow { 
+    width: 20px;
+	image: url(:/image/down-arrow.png);
+} 
+QComboBox::down-arrow:on { 
+	image: url(:/image/down-arrow.png);
+ }</string>
+       </property>
+       <property name="currentIndex">
+        <number>-1</number>
+       </property>
+       <item>
+        <property name="text">
+         <string>Moviecyc#on</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Moviecyc#off</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>Gsensor</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_Gsensor">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QComboBox QAbstractItemView{
+background:#FFFFFF;
+}
+QComboBox {
+    color: rgb(255, 255, 255);
+    background: rgb(85, 170, 255);
+	font:12px;
+}
+QComboBox:disabled{
+background-color: #CCCCCC;
+color: #787878;
+}
+QComboBox::drop-down {
+    subcontrol-origin: padding;   /* 子控件在父元素中的原点矩形。如果未指定此属性，则默认为padding。 */
+    subcontrol-position: top right;   /* 下拉框的位置（右上） */
+    width: 20px;   /* 下拉框的宽度 */
+
+    border-left-style: solid;   /* 下拉框的左边界线为实线 */
+    border-top-right-radius: 3px;   /* 下拉框的右上边界线的圆角半径（应和整个QComboBox右上边界线的圆角半径一致） */
+    border-bottom-right-radius: 3px;   /* 同上 */
+}
+QComboBox::down-arrow { 
+    width: 20px;
+	image: url(:/image/down-arrow.png);
+} 
+QComboBox::down-arrow:on { 
+	image: url(:/image/down-arrow.png);
+ }</string>
+       </property>
+       <property name="currentIndex">
+        <number>-1</number>
+       </property>
+       <item>
+        <property name="text">
+         <string>Gsensor#off</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Gsensor#low</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Gsensor#med</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Gsensor#high</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_9">
+       <property name="text">
+        <string>Moviecodec</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_Moviecodec">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QComboBox QAbstractItemView{
+background:#FFFFFF;
+}
+QComboBox {
+    color: rgb(255, 255, 255);
+    background: rgb(85, 170, 255);
+	font:12px;
+}
+QComboBox:disabled{
+background-color: #CCCCCC;
+color: #787878;
+}
+QComboBox::drop-down {
+    subcontrol-origin: padding;   /* 子控件在父元素中的原点矩形。如果未指定此属性，则默认为padding。 */
+    subcontrol-position: top right;   /* 下拉框的位置（右上） */
+    width: 20px;   /* 下拉框的宽度 */
+
+    border-left-style: solid;   /* 下拉框的左边界线为实线 */
+    border-top-right-radius: 3px;   /* 下拉框的右上边界线的圆角半径（应和整个QComboBox右上边界线的圆角半径一致） */
+    border-bottom-right-radius: 3px;   /* 同上 */
+}
+QComboBox::down-arrow { 
+    width: 20px;
+	image: url(:/image/down-arrow.png);
+} 
+QComboBox::down-arrow:on { 
+	image: url(:/image/down-arrow.png);
+ }</string>
+       </property>
+       <property name="currentIndex">
+        <number>-1</number>
+       </property>
+       <item>
+        <property name="text">
+         <string>Moviecodec#h264</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Moviecodec#h265</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_10">
+       <property name="text">
+        <string>Prerec</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_Prerec">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QComboBox QAbstractItemView{
+background:#FFFFFF;
+}
+QComboBox {
+    color: rgb(255, 255, 255);
+    background: rgb(85, 170, 255);
+	font:12px;
+}
+QComboBox:disabled{
+background-color: #CCCCCC;
+color: #787878;
+}
+QComboBox::drop-down {
+    subcontrol-origin: padding;   /* 子控件在父元素中的原点矩形。如果未指定此属性，则默认为padding。 */
+    subcontrol-position: top right;   /* 下拉框的位置（右上） */
+    width: 20px;   /* 下拉框的宽度 */
+
+    border-left-style: solid;   /* 下拉框的左边界线为实线 */
+    border-top-right-radius: 3px;   /* 下拉框的右上边界线的圆角半径（应和整个QComboBox右上边界线的圆角半径一致） */
+    border-bottom-right-radius: 3px;   /* 同上 */
+}
+QComboBox::down-arrow { 
+    width: 20px;
+	image: url(:/image/down-arrow.png);
+} 
+QComboBox::down-arrow:on { 
+	image: url(:/image/down-arrow.png);
+ }</string>
+       </property>
+       <property name="currentIndex">
+        <number>-1</number>
+       </property>
+       <item>
+        <property name="text">
+         <string>Prerec#off</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Prerec#on</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_11">
+       <property name="text">
+        <string>Delayrec</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_Delayrec">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QComboBox QAbstractItemView{
+background:#FFFFFF;
+}
+QComboBox {
+    color: rgb(255, 255, 255);
+    background: rgb(85, 170, 255);
+	font:12px;
+}
+QComboBox:disabled{
+background-color: #CCCCCC;
+color: #787878;
+}
+QComboBox::drop-down {
+    subcontrol-origin: padding;   /* 子控件在父元素中的原点矩形。如果未指定此属性，则默认为padding。 */
+    subcontrol-position: top right;   /* 下拉框的位置（右上） */
+    width: 20px;   /* 下拉框的宽度 */
+
+    border-left-style: solid;   /* 下拉框的左边界线为实线 */
+    border-top-right-radius: 3px;   /* 下拉框的右上边界线的圆角半径（应和整个QComboBox右上边界线的圆角半径一致） */
+    border-bottom-right-radius: 3px;   /* 同上 */
+}
+QComboBox::down-arrow { 
+    width: 20px;
+	image: url(:/image/down-arrow.png);
+} 
+QComboBox::down-arrow:on { 
+	image: url(:/image/down-arrow.png);
+ }</string>
+       </property>
+       <property name="currentIndex">
+        <number>-1</number>
+       </property>
+       <item>
+        <property name="text">
+         <string>Delayrec#off</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Delayrec#30sec</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Delayrec#1min</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Delayrec#5min</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_12">
+       <property name="text">
+        <string>GPS</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_GPS">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QComboBox QAbstractItemView{
+background:#FFFFFF;
+}
+QComboBox {
+    color: rgb(255, 255, 255);
+    background: rgb(85, 170, 255);
+	font:12px;
+}
+QComboBox:disabled{
+background-color: #CCCCCC;
+color: #787878;
+}
+QComboBox::drop-down {
+    subcontrol-origin: padding;   /* 子控件在父元素中的原点矩形。如果未指定此属性，则默认为padding。 */
+    subcontrol-position: top right;   /* 下拉框的位置（右上） */
+    width: 20px;   /* 下拉框的宽度 */
+
+    border-left-style: solid;   /* 下拉框的左边界线为实线 */
+    border-top-right-radius: 3px;   /* 下拉框的右上边界线的圆角半径（应和整个QComboBox右上边界线的圆角半径一致） */
+    border-bottom-right-radius: 3px;   /* 同上 */
+}
+QComboBox::down-arrow { 
+    width: 20px;
+	image: url(:/image/down-arrow.png);
+} 
+QComboBox::down-arrow:on { 
+	image: url(:/image/down-arrow.png);
+ }</string>
+       </property>
+       <property name="currentIndex">
+        <number>-1</number>
+       </property>
+       <item>
+        <property name="text">
+         <string>GPS#off</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>GPS#on</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_13">
+       <property name="text">
+        <string>Motiondet</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_Motiondet">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QComboBox QAbstractItemView{
+background:#FFFFFF;
+}
+QComboBox {
+    color: rgb(255, 255, 255);
+    background: rgb(85, 170, 255);
+	font:12px;
+}
+QComboBox:disabled{
+background-color: #CCCCCC;
+color: #787878;
+}
+QComboBox::drop-down {
+    subcontrol-origin: padding;   /* 子控件在父元素中的原点矩形。如果未指定此属性，则默认为padding。 */
+    subcontrol-position: top right;   /* 下拉框的位置（右上） */
+    width: 20px;   /* 下拉框的宽度 */
+
+    border-left-style: solid;   /* 下拉框的左边界线为实线 */
+    border-top-right-radius: 3px;   /* 下拉框的右上边界线的圆角半径（应和整个QComboBox右上边界线的圆角半径一致） */
+    border-bottom-right-radius: 3px;   /* 同上 */
+}
+QComboBox::down-arrow { 
+    width: 20px;
+	image: url(:/image/down-arrow.png);
+} 
+QComboBox::down-arrow:on { 
+	image: url(:/image/down-arrow.png);
+ }</string>
+       </property>
+       <property name="currentIndex">
+        <number>-1</number>
+       </property>
+       <item>
+        <property name="text">
+         <string>Motiondet#off</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Motiondet#on</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_14">
+       <property name="text">
+        <string>Ircut</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_Ircut">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QComboBox QAbstractItemView{
+background:#FFFFFF;
+}
+QComboBox {
+    color: rgb(255, 255, 255);
+    background: rgb(85, 170, 255);
+	font:12px;
+}
+QComboBox:disabled{
+background-color: #CCCCCC;
+color: #787878;
+}
+QComboBox::drop-down {
+    subcontrol-origin: padding;   /* 子控件在父元素中的原点矩形。如果未指定此属性，则默认为padding。 */
+    subcontrol-position: top right;   /* 下拉框的位置（右上） */
+    width: 20px;   /* 下拉框的宽度 */
+
+    border-left-style: solid;   /* 下拉框的左边界线为实线 */
+    border-top-right-radius: 3px;   /* 下拉框的右上边界线的圆角半径（应和整个QComboBox右上边界线的圆角半径一致） */
+    border-bottom-right-radius: 3px;   /* 同上 */
+}
+QComboBox::down-arrow { 
+    width: 20px;
+	image: url(:/image/down-arrow.png);
+} 
+QComboBox::down-arrow:on { 
+	image: url(:/image/down-arrow.png);
+ }</string>
+       </property>
+       <property name="currentIndex">
+        <number>-1</number>
+       </property>
+       <item>
+        <property name="text">
+         <string>Ircut#auto</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ircut#man</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_15">
+       <property name="text">
+        <string>Recmode</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_Recmode">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>165</width>
+         <height>180</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QComboBox QAbstractItemView{
+background:#FFFFFF;
+}
+QComboBox {
+    color: rgb(255, 255, 255);
+    background: rgb(85, 170, 255);
+	font:12px;
+}
+QComboBox:disabled{
+background-color: #CCCCCC;
+color: #787878;
+}
+QComboBox::drop-down {
+    subcontrol-origin: padding;   /* 子控件在父元素中的原点矩形。如果未指定此属性，则默认为padding。 */
+    subcontrol-position: top right;   /* 下拉框的位置（右上） */
+    width: 20px;   /* 下拉框的宽度 */
+
+    border-left-style: solid;   /* 下拉框的左边界线为实线 */
+    border-top-right-radius: 3px;   /* 下拉框的右上边界线的圆角半径（应和整个QComboBox右上边界线的圆角半径一致） */
+    border-bottom-right-radius: 3px;   /* 同上 */
+}
+QComboBox::down-arrow { 
+    width: 20px;
+	image: url(:/image/down-arrow.png);
+} 
+QComboBox::down-arrow:on { 
+	image: url(:/image/down-arrow.png);
+ }</string>
+       </property>
+       <property name="currentIndex">
+        <number>-1</number>
+       </property>
+       <item>
+        <property name="text">
+         <string>Recmode#ConnectPC</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Recmode#Normal</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Recmode#PwronRecDisableRecKey</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Recmode#PwronRec</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_16">
+       <property name="text">
+        <string>Setting Date</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDateTimeEdit" name="dateTimeEdit">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="currentSection">
+        <enum>QDateTimeEdit::YearSection</enum>
+       </property>
+       <property name="displayFormat">
+        <string>yyyy/MM/dd HH:mm:ss</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>0</y>
+     <width>790</width>
+     <height>700</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QListWidget{  
+    background:white;  
+    color:black;  
+    border:1px solid black;
+}  
+  
+QListWidget::item{  
+    height: 195px;  
+	width: 150px;  
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+}  
+  
+</string>
+   </property>
+   <property name="flow">
+    <enum>QListView::LeftToRight</enum>
+   </property>
+   <property name="isWrapping" stdset="0">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_write">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>520</y>
+     <width>88</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background-color:rgba(91,155,213,100%);
+color: white;   
+border-radius: 5px;  
+border: 2px groove gray; 
+border-style: outset;
+}
+QPushButton:pressed{
+background-color:rgb(85, 170, 255);
+ border-style: inset;
+}</string>
+   </property>
+   <property name="text">
+    <string>Write</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_writeAll">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>560</y>
+     <width>141</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background-color:rgba(91,155,213,100%);
+color: white;   
+border-radius: 5px;  
+border: 2px groove gray; 
+border-style: outset;
+}
+QPushButton:pressed{
+background-color:rgb(85, 170, 255);
+ border-style: inset;
+}</string>
+   </property>
+   <property name="text">
+    <string>Write All</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

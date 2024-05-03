@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SearchByStaffName</class>
+ <widget class="QWidget" name="SearchByStaffName">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>700</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;background:#FFFFFF;&lt;/p&gt;&lt;p&gt;border:1px solid black;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:#FFFFFF;
+border:1px solid black;</string>
+   </property>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>50</y>
+      <width>231</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox {
+    border: 1px solid gray;   /* 边框 */
+    border-radius: 0px;   /* 圆角 */
+    padding: 1px 18px 1px 3px;   /* 字体填衬 */
+    color: rgb(255, 255, 255);
+    background: rgb(85, 170, 255);
+	font:20px;
+}
+QComboBox::drop-down {
+    subcontrol-origin: padding;   /* 子控件在父元素中的原点矩形。如果未指定此属性，则默认为padding。 */
+    subcontrol-position: top right;   /* 下拉框的位置（右上） */
+    width: 30px;   /* 下拉框的宽度 */
+
+    border-left-style: solid;   /* 下拉框的左边界线为实线 */
+    border-top-right-radius: 3px;   /* 下拉框的右上边界线的圆角半径（应和整个QComboBox右上边界线的圆角半径一致） */
+    border-bottom-right-radius: 3px;   /* 同上 */
+}
+QComboBox::down-arrow { width: 30px;
+ 	background: transparent;
+ 	padding: 0px 0px 0px 0px; 
+	image: url(:/image/down-arrow.png);
+} 
+QComboBox::down-arrow:on { 
+	image: url(:/image/down-arrow.png);
+ }</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_Export">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>50</y>
+      <width>88</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color:#70AD47;
+color: white;   
+border-radius: 5px;  
+border: 2px groove gray; 
+border-style: outset;
+}
+QPushButton:pressed{
+background-color:#329632;
+ border-style: inset;
+}</string>
+    </property>
+    <property name="text">
+     <string>Export</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_goback">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>121</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color:rgba(91,155,213,100%);
+color: white;   
+border-radius: 5px;  
+border: 2px groove gray; 
+border-style: outset;
+}
+QPushButton:pressed{
+background-color:rgb(85, 170, 255);
+ border-style: inset;
+}</string>
+    </property>
+    <property name="text">
+     <string>Back</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>120</y>
+      <width>960</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget{
+	background:rgba(255, 255, 255,0);
+ 	border:none;
+}
+QHeaderView
+{
+    background:transparent;  
+	border:none;
+}
+QHeaderView::section 
+{
+    font-size:18px; 
+    font-family:&quot;Microsoft YaHei&quot;; 
+    color:#FFFFFF;  
+    background:#5B9BD5;  
+    border:none; 
+    min-height:50px; 
+    max-height:50px;        
+    margin-left:1.5px;   
+    padding-left:0px;  
+}
+QTableWidget{
+	background:#D2DEEF;  
+	border:none;
+}
+</string>
+    </property>
+    <column>
+     <property name="text">
+      <string>File Name</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Date</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>UploadDate</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>PolNo</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>DevNo</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Export</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

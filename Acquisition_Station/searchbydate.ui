@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SearchByDate</class>
+ <widget class="QDialog" name="SearchByDate">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:#FFFFFF;
+border:1px solid black;</string>
+  </property>
+  <widget class="QCalendarWidget" name="calendarWidget">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>30</y>
+     <width>741</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget{
+	background:rgba(255, 255, 255,0);
+ 	border:none;
+}
+QCalendarWidget QWidget#qt_calendar_navigationbar{
+	background-color: #5B9BD5;
+	border-bottom: 2px solid white;
+}
+
+QToolButton {
+    icon-size: 60px, 60px;
+    width: 110px;
+    height: 35px;
+}
+QToolButton#qt_calendar_prevmonth {
+    width: 60px;
+    qproperty-icon: url(:/image/left-arrow.png);
+}
+ 
+QToolButton#qt_calendar_nextmonth {
+    width: 60px;
+    qproperty-icon: url(:/image/right-arrow.png);
+}
+
+QCalendarWidget QTableView 
+{
+	    alternate-background-color: #5B9BD5;
+   		background-color: #D2DEEF;
+	
+}
+
+QToolButton#qt_calendar_monthbutton,#qt_calendar_yearbutton{
+	color: #FFFFFF;
+	font: 15pt;
+}
+QCalendarWidget QAbstractItemView:enabled 
+{
+    font-size:18px;  
+	selection-background-color: rgb(64, 64, 64); 
+    selection-color: rgb(0, 255, 0); 
+	
+}
+
+QCalendarWidget QAbstractItemView:disabled { 
+	color: #AFABAB; 
+}
+QCalendarWidget QMenu { 
+	
+	background-color: #5B9BD5;
+}</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>390</y>
+     <width>960</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget{
+	background:rgba(255, 255, 255,0);
+ 	border:none;
+}
+QHeaderView
+{
+    background:transparent;  
+	border:none;
+}
+QHeaderView::section 
+{
+    font-size:18px; 
+    font-family:&quot;Microsoft YaHei&quot;; 
+    color:#FFFFFF;  
+    background:#5B9BD5;  
+    border:none; 
+    min-height:50px; 
+    max-height:50px;        
+    margin-left:1.5px;   
+    padding-left:0px;  
+}
+QTableWidget{
+	background:#D2DEEF;  
+	border:none;
+}
+</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>File Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>UploadDate</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>PolNo</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>DevNo</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Export</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="pushButton_goback">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>88</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background-color:rgba(91,155,213,100%);
+color: white;   
+border-radius: 5px;  
+border: 2px groove gray; 
+border-style: outset;
+font:16px;
+}
+QPushButton:pressed{
+background-color:rgb(85, 170, 255);
+ border-style: inset;
+}</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_Export">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>150</y>
+     <width>91</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background-color:#70AD47;
+color: white;   
+border-radius: 5px;  
+border: 2px groove gray; 
+border-style: outset;
+font:16px;
+}
+QPushButton:pressed{
+background-color:#329632;
+ border-style: inset;
+}</string>
+   </property>
+   <property name="text">
+    <string>Export</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
